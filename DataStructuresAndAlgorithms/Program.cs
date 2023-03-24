@@ -5,7 +5,8 @@ namespace DataStructuresAndAlgorithms
     {
         static void Main(String[] args)
         {
-            Console.WriteLine("Welcome to Data structures and algorithms!");
+            SearchWord searchWord=new SearchWord();
+            searchWord.ReadFile(@"E:\Users\Ganesh\Documents\BL Excercise\DataStructuresAndAlgorithms\DataStructuresAndAlgorithms\File.txt");
         }
     }
 }
