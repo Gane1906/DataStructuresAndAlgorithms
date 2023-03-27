@@ -18,9 +18,11 @@ namespace DataStructuresAndAlgorithms
             Prime prime = new Prime();
             prime.CheckPrime();
             AnagramPalindrome anagramPalindrome = new AnagramPalindrome();
-            anagramPalindrome.CheckNumber();*/
+            anagramPalindrome.CheckNumber();
             CustomizeString customizeString = new CustomizeString();
-            customizeString.Customize();
+            customizeString.Customize();*/
+            UnOrderedList unOrderedList=new UnOrderedList();
+            unOrderedList.ReadFile(@"E:\Users\Ganesh\Documents\BL Excercise\DataStructuresAndAlgorithms\DataStructuresAndAlgorithms\File.txt");
         }
     }
 }
