@@ -17,9 +17,10 @@ namespace DataStructuresAndAlgorithms
             anagram.CheckAnagram();
             Prime prime = new Prime();
             prime.CheckPrime();
-            */
             AnagramPalindrome anagramPalindrome = new AnagramPalindrome();
-            anagramPalindrome.CheckNumber();
+            anagramPalindrome.CheckNumber();*/
+            CustomizeString customizeString = new CustomizeString();
+            customizeString.Customize();
         }
     }
 }
