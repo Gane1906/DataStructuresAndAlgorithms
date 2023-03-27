@@ -15,9 +15,11 @@ namespace DataStructuresAndAlgorithms
             mergeSort.ReadFie(@"E:\Users\Ganesh\Documents\BL Excercise\DataStructuresAndAlgorithms\DataStructuresAndAlgorithms\IntegerFile.txt");
             AnagramCheck anagram = new AnagramCheck();
             anagram.CheckAnagram();
-            */
             Prime prime = new Prime();
             prime.CheckPrime();
+            */
+            AnagramPalindrome anagramPalindrome = new AnagramPalindrome();
+            anagramPalindrome.CheckNumber();
         }
     }
 }

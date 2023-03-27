@@ -8,15 +8,15 @@ namespace DataStructuresAndAlgorithms
 {
     public class AnagramCheck
     {
-        public void CheckAnagram()
+        public bool CheckAnagram(String firstInput,String secondInput)
         {
-            Console.WriteLine("Enter first word");
+            /*Console.WriteLine("Enter first word");
             String firstInput = Console.ReadLine();
             Console.WriteLine("Enter second word");
-            string secondInput = Console.ReadLine();
+            string secondInput = Console.ReadLine();*/
             if (firstInput.Length != secondInput.Length)
             {
-                Console.WriteLine("Thw eords are not anagram");
+                return false;
             }
             else
             {
@@ -28,13 +28,16 @@ namespace DataStructuresAndAlgorithms
                 String word2 = result2.ToString();
                 if (word1.Equals(word2))
                 {
-                    Console.WriteLine("The words are anagram");
+                    //Console.WriteLine("The words are anagram");
+                    return true;
                 }
                 else
                 {
-                    Console.WriteLine("The words are not anagram");
+                    //Console.WriteLine("The words are not anagram");
+                    return false;
                 }
             }
+            return false;
         }
     }
 }

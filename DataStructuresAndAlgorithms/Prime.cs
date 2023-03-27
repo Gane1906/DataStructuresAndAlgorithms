@@ -23,10 +23,12 @@ namespace DataStructuresAndAlgorithms
             int lower = Convert.ToInt32(Console.ReadLine());
             Console.Write("Enter upper limit value: ");
             int upper = Convert.ToInt32(Console.ReadLine());
+
             for(int num = lower; num <= upper; num++)
             {
-                if(IsPrime(num))
-                    Console.Write(num+" ");
+                if (IsPrime(num))
+                    Console.WriteLine(num);
+                    
             }
         }
     }
