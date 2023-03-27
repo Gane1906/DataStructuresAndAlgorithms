@@ -10,14 +10,17 @@ namespace DataStructuresAndAlgorithms
     {
         public void ReadFile(String filePath)
         {
-            LinkedList<String> list = new LinkedList<string>();
+            LinkedList<int> list = new LinkedList<int>();
             String readData = File.ReadAllText(filePath);
             String[] words = readData.Split(" ");
+            int[] numbers = new int[words.Length];
             foreach (var data in words)
             {
-                list.AddNode(data);
+                int num = Convert.ToInt32(data);
+                list.AddNode(num);
             }
-            String input = Console.ReadLine();
+            Console.WriteLine("Enter input");
+            int input = Convert.ToInt32(Console.ReadLine());
             if (list.SearchElement(input) != -1)
             {
                 list.DeleteParticularPosition(list.SearchElement(input));
