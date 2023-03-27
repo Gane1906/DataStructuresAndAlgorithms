@@ -8,8 +8,8 @@ using System.Threading.Tasks;
 namespace DataStructuresAndAlgorithms
 {
     public class MergeSort
-    { 
-        public void Merge(int[] arr,int l,int m,int r) 
+    {
+        public void Merge(int[] arr, int l, int m, int r)
         {
             // Find sizes of two
             // subarrays to be merged
@@ -86,15 +86,15 @@ namespace DataStructuresAndAlgorithms
             String[] words = readFile.Split(" ");
             int[] numbers = new int[words.Length];
             int i = 0;
-            foreach(String data in words)
+            foreach (String data in words)
             {
                 numbers[i] = Convert.ToInt32(data);
                 i++;
             }
             Sort(numbers, 0, words.Length - 1);
-            foreach(int data in numbers)
+            foreach (int data in numbers)
             {
-                Console.Write(data+" ");
+                Console.Write(data + " ");
             }
         }
     }
