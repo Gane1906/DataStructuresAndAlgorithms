@@ -20,9 +20,11 @@ namespace DataStructuresAndAlgorithms
             AnagramPalindrome anagramPalindrome = new AnagramPalindrome();
             anagramPalindrome.CheckNumber();
             CustomizeString customizeString = new CustomizeString();
-            customizeString.Customize();*/
+            customizeString.Customize();
             UnOrderedList unOrderedList=new UnOrderedList();
-            unOrderedList.ReadFile(@"E:\Users\Ganesh\Documents\BL Excercise\DataStructuresAndAlgorithms\DataStructuresAndAlgorithms\IntegerFile.txt");
+            unOrderedList.ReadFile(@"E:\Users\Ganesh\Documents\BL Excercise\DataStructuresAndAlgorithms\DataStructuresAndAlgorithms\IntegerFile.txt");*/
+            BalancedParanthesis balancedParanthesis = new BalancedParanthesis();
+            balancedParanthesis.ReadFile(@"E:\Users\Ganesh\Documents\BL Excercise\DataStructuresAndAlgorithms\DataStructuresAndAlgorithms\BalanceParanthesis.txt");
         }
     }
 }
