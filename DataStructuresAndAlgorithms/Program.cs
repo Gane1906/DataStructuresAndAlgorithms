@@ -24,9 +24,11 @@ namespace DataStructuresAndAlgorithms
             UnOrderedList unOrderedList=new UnOrderedList();
             unOrderedList.ReadFile(@"E:\Users\Ganesh\Documents\BL Excercise\DataStructuresAndAlgorithms\DataStructuresAndAlgorithms\IntegerFile.txt");
             BalancedParanthesis balancedParanthesis = new BalancedParanthesis();
-            balancedParanthesis.ReadFile(@"E:\Users\Ganesh\Documents\BL Excercise\DataStructuresAndAlgorithms\DataStructuresAndAlgorithms\BalanceParanthesis.txt");*/
+            balancedParanthesis.ReadFile(@"E:\Users\Ganesh\Documents\BL Excercise\DataStructuresAndAlgorithms\DataStructuresAndAlgorithms\BalanceParanthesis.txt");
             BankEnquiry bankEnquiry = new BankEnquiry();
-            bankEnquiry.Operation();
+            bankEnquiry.Operation();*/
+            PalindromeCheck palindromeCheck = new PalindromeCheck();
+            palindromeCheck.CheckPalindrome();
         }
     }
 }

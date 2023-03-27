@@ -41,18 +41,21 @@ namespace DataStructuresAndAlgorithms
             }
             Console.WriteLine();
         }
-        public void Dequeue()
+        public T Dequeue()
         {
             if (this.head == null)
             {
                 Console.WriteLine("Queue is empty,We cant delete");
-                return;
+                return (T)Convert.ChangeType(0, typeof(T));
             }
             else
             {
-                Console.WriteLine("The value dequeued is {0}", this.head.data);
+                //Console.WriteLine("The value dequeued is {0}", this.head.data);
+                T temp = this.head.data;
                 this.head = this.head.next;
+                return temp;
             }
+            return (T)Convert.ChangeType(0, typeof(T));
         }
         public int Size()
         {
