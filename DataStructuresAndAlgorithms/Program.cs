@@ -13,9 +13,11 @@ namespace DataStructuresAndAlgorithms
             bubbleSort.ReadFile(@"E:\Users\Ganesh\Documents\BL Excercise\DataStructuresAndAlgorithms\DataStructuresAndAlgorithms\IntegerFile.txt");
             MergeSort mergeSort = new MergeSort();
             mergeSort.ReadFie(@"E:\Users\Ganesh\Documents\BL Excercise\DataStructuresAndAlgorithms\DataStructuresAndAlgorithms\IntegerFile.txt");
-            */
             AnagramCheck anagram = new AnagramCheck();
             anagram.CheckAnagram();
+            */
+            Prime prime = new Prime();
+            prime.CheckPrime();
         }
     }
 }
